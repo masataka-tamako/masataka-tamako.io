@@ -3,8 +3,13 @@
 }
 
 .main {
-    height: 500px;
+    padding: 180px 0 100px 0px;
     background-image: url(top.png);
     background-size: cover;
+    text-align: center;
+}
+
+container {
     margin: 0 auto;
+    width: 1170px;
 }
