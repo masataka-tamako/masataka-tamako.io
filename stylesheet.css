@@ -1,15 +1,47 @@
-.title {
-    color: #02ccba;
+html, body, ul, ol, li, h1, h2, h3, h4, h5, h6, p, div {
+    margin: 0;
+    padding: 0;
 }
 
-.main {
-    padding: 180px 0 100px 0px;
+body {
+    font-family: 'Hiragino Kaku Gothic Pron W3', sans-serif;
+}
+
+.top-wrapper {
+    padding: 180px 0 100px 0;
     background-image: url(top.png);
     background-size: cover;
     text-align: center;
+    color: white;
 }
 
-container {
-    margin: 0 auto;
-    width: 1170px;
+.container {
+    width: 1170px
+    margin 0 auto;
+}
+
+.top-wrapper h1 {
+    opacity: 0.8;
+    font-size: 45px;
+    letter-spacing: 5px;
+}
+
+.top-wrapper p {
+    padding-bottom: 30px;
+}
+
+.btn {
+    padding: 8px 24px;
+    border-radius: 8px;
+    background-color: #55acee;
+    color: white;
+    opacity: 0.8;
+}
+
+.btn:hover {
+    opacity: 1;
+}
+
+.fa {
+    margin-right: 5px;
 }
