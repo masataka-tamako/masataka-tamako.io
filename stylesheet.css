@@ -3,5 +3,8 @@
 }
 
 .body {
+    height: 500px;
     background-image: url(top.png);
+    background-size: cover;
+    margin: 0 auto;
 }
