@@ -9,15 +9,45 @@ body {
 
 .top-wrapper {
     padding: 180px 0 100px 0;
-    background-image: url(top.png);
+    background-image: url(magichouse.png);
     background-size: cover;
     text-align: center;
     color: white;
 }
 
+ header {
+     width: 100%;
+     background-color: rgba(34, 49, 52, 0.9); 
+     height: 65px;
+     position: fixed;
+     top: 0;
+     z-index: 10;
+ }
+
+.header-left {
+    float: left;
+}
+
+.header-right {
+    float: right;
+    background-color: rgba(255, 255, 255, 0.3);
+}
+
+.page {
+    padding-right: 25px;
+    padding-left: 25px;
+    line-height: 65px;
+    color: white;
+}
+
+.header-right:hover {
+    background-color: rgba(255, 255, 255, 0.5);
+    transition: all 0.5s;
+}
+
 .container {
-    width: 1170px
-    margin 0 auto;
+    width: 750px;
+    margin: 0 auto;
 }
 
 .top-wrapper h1 {
